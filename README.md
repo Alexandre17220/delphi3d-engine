@@ -40,6 +40,9 @@ To be honest this engine has lots of neat functionality, but is not easy to use.
 * Tons of helpers
 * Partially translated headers for Steam API and FMOD
   
+## Hints
+
+The DirectX SDK throws a lot of warnings which are printed by Delphi in the editor output. This printing consumes a lot of performance, e.g. the editors seems to run slowly when this happens. To work around this you can use the dxcpl.exe for the DirectX SDK to mute the warning showing up.
 
 ## License
 
