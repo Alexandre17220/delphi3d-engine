@@ -4,14 +4,38 @@ A 3D-graphic and game engine for Delphi and Windows. It was used to develop the 
 # Usage
 Either copy all files in your project or the way we usually link to it: Add the Engine directory and alls subdirectory to your library path in Delphi (must be configured for each target 32-bit and 64-bit). The engine is tested (in Rise of Legions) to work with 32-bit using the graphic components (client) and 64-bit working without any graphic (server).
 
+# Warning
+To be honest this engine has lots of neat functionality, but is not easy to use. This project was developed by my friend an my since our studies for many years. There is a lot of features, but no real documentation (except sometimes more sometimes less code comments) and surely a lot of bugs if anyone new to the engine will use it. I would advice to use this engine with care and have a look at the source code of Rise of Legions or the editors for some hints about the usage of some modules.
+
 # Features
 
 * Graphics
   * DirectX 11 graphic adapter
-  *
-*
+  * Camera
+  * Forward and Deferred Lighting
+  * Mesh + Skinned Mesh Animation + Morph Animation + FBX support
+  * dXML - Dynamic UI system based on HTML+CSS+Vuejs style
+  * Particle Effects
+  * Post Effects
+  * Dynamic shader creation with django like block system
+  * Terrain Rendering
+  * Vegetation Rendering
+  * Water Rendering
+  * Dynamic custom vertex rendering
+* Component-driven Eventsystem
+* Input handling for mouse and keyboard (also multiple mice support with RAW input)
+* Network
+* Scripting adapter for DWScript
+* Automatic serialization with attributes
+* Sound system (adapter for FMOD and OpenAL)
+* DataQuery - LinQ similar query language
 * Math
+  * Vector and Matrix arithmetic
+  * 3D and 2D Collision arithmetic
+  * Pathfinding
 * Tons of helpers
+* Partially translated headers for Steam API and FMOD
+  
 
 ## License
 
