@@ -1,5 +1,5 @@
 # Delphi3D-Engine
-A 3D-graphic and game engine for Delphi and Windows.
+A 3D-graphic and game engine for Delphi and Windows. Was used to develop the game [Rise of Legions](https://riseoflegions.com).
 
 ## License
 
