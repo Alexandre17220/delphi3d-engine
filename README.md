@@ -18,3 +18,5 @@ It make use of other Open-Source-Software stated below:
 [Jedi-WinApi](https://sourceforge.net/projects/jedi-apilib/) - MPL 1.1 - Used for various windows functions.
 
 [LockBox](https://github.com/TurboPack/LockBox) - MPL 1.1 - Used for hashing.
+
+[VerySimpleXML](https://github.com/Dennis1000/verysimplexml) - MPL 1.1 - Used for XML parsing.
