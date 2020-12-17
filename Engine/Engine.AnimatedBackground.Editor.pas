@@ -18,6 +18,7 @@ uses
   Vcl.ExtCtrls,
   Vcl.Buttons,
   Engine.Helferlein,
+  Engine.Helferlein.DataStructures,
   Engine.Helferlein.Windows,
   Engine.Helferlein.VCLUtils,
   Math,
