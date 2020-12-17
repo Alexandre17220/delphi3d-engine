@@ -1,6 +1,18 @@
 # Delphi3D-Engine
 A 3D-graphic and game engine for Delphi and Windows. Was used to develop the game [Rise of Legions](https://riseoflegions.com).
 
+# Usage
+Either copy all files in your project or the way we usually link to it: Add the Engine directory and alls subdirectory to your library path in Delphi (must be configured for each target 32-bit and 64-bit). The engine is tested (in Rise of Legions) to work with 32-bit using the graphic components (client) and 64-bit working without any graphic (server).
+
+# Features
+
+* Graphics
+  * DirectX 11 graphic adapter
+  *
+*
+* Math
+* Tons of helpers
+
 ## License
 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
